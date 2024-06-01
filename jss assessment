@@ -23,7 +23,6 @@ const NFT={
 NFTs.push(NFT);
 console.log("Minted:"+_name);
 }
-}
 
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
@@ -52,4 +51,3 @@ mintNFT("Orange","Fruit","Orange","Rich in Vitamin C");
 mintNFT("Carrot","Vegetable","Red","Helpful in weight-loss");
 listNFTs();
 getTotalSupply();
-
